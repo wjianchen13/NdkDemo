@@ -30,8 +30,7 @@
             android:textColor="#000000"
             android:text="获取C++字符串"
             android:onClick="onTest1"/>
-
-
+        
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -42,8 +41,7 @@
             android:textColor="#000000"
             android:text="改变属性"
             android:onClick="onTest2"/>
-
-
+        
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,8 +52,7 @@
             android:textColor="#000000"
             android:text="改变静态属性"
             android:onClick="onTest3"/>
-
-
+        
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,8 +63,7 @@
             android:textColor="#000000"
             android:text="修改Java私有变量"
             android:onClick="onTest4"/>
-
-
+        
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -78,6 +74,61 @@
             android:textColor="#000000"
             android:text="调用java方法"
             android:onClick="onTest5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:text="JNI数组操作"
+            android:onClick="onTest6"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:text="JNI对象操作"
+            android:onClick="onTest7"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:text="JNI创建对象"
+            android:onClick="onTest8"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:text="测试引用"
+            android:onClick="onTest9"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:text="释放全局引用"
+            android:onClick="onTest10"/>
 
     </LinearLayout>
 
