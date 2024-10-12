@@ -2,7 +2,9 @@ package com.example.ndkdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.example.ndkdemo.databinding.ActivityMainBinding;
@@ -22,15 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-        // Example of a call to a native method
-        TextView tv = binding.sampleText;
-        tv.setText(stringFromJNI());
+        
     }
-
-    /**
-     * A native method that is implemented by the 'ndkdemo' native library,
-     * which is packaged with this application.
-     */
-    public native String stringFromJNI();
+    
+    public void onBase(View v) {
+        startActivity(new Intent(this, BaseActivity.class));
+    }
+    
 }
